@@ -1,6 +1,6 @@
-##Delphoto
+## Delphoto
 
-####Requirements
+#### Requirements
 * scrot
 * pygame
 * openCV
