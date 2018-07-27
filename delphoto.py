@@ -25,9 +25,9 @@ def main():
     clock = pg.time.Clock()
     font = pg.font.Font(None, 32)
     
-    pyautogui.screenshot(savedir+"sfondo.png")
+    pyautogui.screenshot(savedir+"/sfondo.png")
     
-    picture = pg.image.load(savedir+"sfondo.png")
+    picture = pg.image.load(savedir+"/sfondo.png")
     pg.display.set_mode((1366,768), pg.FULLSCREEN)
     main_surface = pg.display.get_surface()
     main_surface.blit(picture, (0,0))
