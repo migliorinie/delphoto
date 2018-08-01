@@ -18,6 +18,7 @@ def take_pic(name):
 
 savedir= os.path.dirname(os.path.realpath(__file__))
 def get_name():
+    os.system("mkdir -p "+savedir+"/images")
     return savedir+'/images/delfino'+strftime("%m_%d_%H_%M_%S", gmtime())+'.png'
     
 def main():
